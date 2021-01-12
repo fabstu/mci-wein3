@@ -1,19 +1,10 @@
 package mci.controller;
 
 import javafx.application.Application;
-import javafx.application.Platform;
-import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-import javafx.stage.WindowEvent;
-import mci.aufnehmen.WeinAufnehmenController;
-import mci.controller.WeinController;
-
-import java.io.IOException;
 
 public class Main extends Application {
 
@@ -21,8 +12,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Wein.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("Wein.fxml"));
         Parent root = fxmlLoader.load();
+
+        //Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("Wein.fxml"));
+
 
         primaryStage.setTitle("Wein");
         primaryStage.setScene(new Scene(root, 300, 275));

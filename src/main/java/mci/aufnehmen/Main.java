@@ -4,12 +4,8 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 import mci.controller.WeinController;
-
-import java.io.IOException;
 
 public class Main extends Application {
 
@@ -17,10 +13,10 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("WeinAufnehmen.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("../controller/WeinAufnehmen.fxml"));
         Parent root = fxmlLoader.load();
 
-        //Parent root = FXMLLoader.load(getClass().getResource("aufnehmen/WeinAufnehmenController.fxml"));
+        //Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("WeinAufnehmenController.fxml"));
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
