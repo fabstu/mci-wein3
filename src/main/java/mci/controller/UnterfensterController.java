@@ -25,7 +25,7 @@ public class UnterfensterController {
 
     public void nehmeWeinAuf(WeinController weinController) throws IOException {
         System.out.println("Creating WeinAufnehmen Fenster..");
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("WeinAufnehmen.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/WeinAufnehmen.fxml"));
         Parent root = fxmlLoader.load();
 
         Stage stage = new Stage();
@@ -58,7 +58,7 @@ public class UnterfensterController {
 
         System.out.println("Creating Liste Fenster.");
 
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("WeinListe.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/WeinListe.fxml"));
         Parent root = fxmlLoader.load();
 
         Stage stage = new Stage();

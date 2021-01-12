@@ -10,6 +10,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
@@ -28,7 +31,7 @@
         <resources>
             <resource>
                 <filtering>false</filtering>
-                <directory>src/main/java</directory>
+                <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.fxml</include>
                 </includes>
@@ -42,8 +45,8 @@
                 <version>3.8.0</version>
                 <configuration>
                     <release>11</release>
-                    <source>7</source>
-                    <target>7</target>  <!--or <release>10</release>-->
+                    <source>11</source>
+                    <target>11</target>  <!--or <release>10</release>-->
                 </configuration>
             </plugin>
 
@@ -59,7 +62,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
-                <version>1.2.1</version>
+                <version>1.6.0</version>
                 <executions>
                     <execution>
                         <goals>
@@ -69,8 +72,6 @@
                 </executions>
                 <configuration>
                     <mainClass>mci.controller.Main</mainClass>
-                    <arguments>
-                    </arguments>
                 </configuration>
             </plugin>
 

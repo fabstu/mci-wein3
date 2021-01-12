@@ -63,7 +63,7 @@
                   <TextArea fx:id="beschreibung" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
                    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="9" GridPane.vgrow="ALWAYS">
                        <children>
-                           <fx:include fx:id="preisumrechner" source="../aufnehmen/preisumrechner/PreisumrechnerDokument.fxml" />
+                           <fx:include fx:id="preisumrechner" source="PreisumrechnerDokument.fxml" />
                        </children>
                    </AnchorPane>
 
@@ -97,7 +97,7 @@
          </content></Tab>
     <Tab id="tab2" text="Trinkreifediagramm">
         <content>
-            <fx:include fx:id="trinkreife" source="../aufnehmen/trinkreife/Trinkreife.fxml" />
+            <fx:include fx:id="trinkreife" source="Trinkreife.fxml" />
         </content>
 
     </Tab>

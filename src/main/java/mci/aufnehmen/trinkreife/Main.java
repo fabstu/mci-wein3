@@ -20,7 +20,7 @@ public class Main extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Trinkreife.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/Trinkreife.fxml"));
         
         root.getStylesheets().add("versuch1/theme.css");
         

@@ -13,10 +13,10 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("../controller/WeinAufnehmen.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/WeinAufnehmen.fxml"));
         Parent root = fxmlLoader.load();
 
-        //Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("WeinAufnehmenController.fxml"));
+        //Parent root = FXMLLoader.load(getClass().getResource("/WeinAufnehmenController.fxml"));
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
