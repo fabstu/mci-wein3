@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mci.controller.WeinController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu text="_Datei">
+            <items>
+                  <MenuItem fx:id="öffnenMenuItem" onAction="#öffnen" text="Ö_ffnen">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="O" control="UP" meta="DOWN" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+              <MenuItem fx:id="speichernMenuItem" disable="true" onAction="#speichern" text="_Speichern">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="S" control="UP" meta="DOWN" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+                  <MenuItem fx:id="speichernUnterMenuItem" disable="true" onAction="#speichernUnter" text="Speichern _unter ...">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="S" control="UP" meta="DOWN" shift="DOWN" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+                  <MenuItem onAction="#beenden" text="Beenden">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="Q" control="UP" meta="DOWN" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+            </items>
+          </Menu>
+          <Menu disable="true" mnemonicParsing="false" onAction="#bearbeiten" text="Bearbeiten">
+               <accelerator>
+                  <KeyCodeCombination alt="UP" code="B" control="UP" meta="DOWN" shift="UP" shortcut="UP" />
+               </accelerator>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Wein">
+              <items>
+                <MenuItem fx:id="aufnehmen" mnemonicParsing="false" onAction="#aufnehmen" text="Aufnehmen">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="A" control="UP" meta="DOWN" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+                  <MenuItem fx:id="ändern" disable="true" mnemonicParsing="false" onAction="#ändern" text="Ändern">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="M" control="UP" meta="DOWN" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+                  <MenuItem fx:id="löschen" mnemonicParsing="false" onAction="#löschen" text="Löschen">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="D" control="UP" meta="DOWN" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+                  <Menu fx:id="ansicht" mnemonicParsing="false" text="Ansicht">
+                    <items>
+                      <MenuItem onAction="#liste" text="Liste">
+                           <accelerator>
+                              <KeyCodeCombination alt="UP" code="L" control="UP" meta="DOWN" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                        <MenuItem disable="true" mnemonicParsing="false" onAction="#details" text="Details">
+                           <accelerator>
+                              <KeyCodeCombination alt="UP" code="D" control="UP" meta="DOWN" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                    </items>
+                  </Menu>
+              </items>
+            </Menu>
+          <Menu text="_?">
+            <items>
+              <MenuItem onAction="#info" text="Inf_o">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="I" control="UP" meta="DOWN" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

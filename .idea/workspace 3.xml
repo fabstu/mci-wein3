@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="abc">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mci/aufnehmen/WeinAufnehmenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mci/aufnehmen/WeinAufnehmenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mci/controller/DateisystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mci/controller/DateisystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mci/controller/WeinController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mci/controller/WeinController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mci/controller/WrongFileExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mci/controller/WrongFileExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mci/wein/Alkoholgehalt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mci/wein/Alkoholgehalt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mci/wein/Anbaugebiet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mci/wein/Anbaugebiet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mci/wein/Wein.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mci/wein/Wein.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mci/wein/WeinAlter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mci/wein/WeinAlter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mci/wein/WeinFarbe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mci/wein/WeinFarbe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mci/wein/WeinPreis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mci/wein/WeinPreis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyHome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyHome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiserver/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../apiserver/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiserver/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../apiserver/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../apiserver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiserver/mymod/proto/abc.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../../apiserver/mymod/proto/abc.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiserver/mymod/src/de/aduu/leap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../apiserver/mymod/src/de/aduu/leap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiserver/out/production/mymod/META-INF/mymod.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../apiserver/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.23.0" />
+      </map>
+    </option>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mci/wein/Wein.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mci/controller/DateisystemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="67" column="49" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mci/controller/DecodingError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mci/controller/WrongFileExtension.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="58" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="58" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mci/controller/AlertHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mci/controller/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mci/controller/WeinController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="151" column="48" lean-forward="true" selection-start-line="151" selection-start-column="48" selection-end-line="151" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mci/aufnehmen/WeinAufnehmenController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5303">
+              <caret line="518" column="17" selection-start-line="518" selection-start-column="16" selection-end-line="518" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>aktuelle</find>
+      <find>clos</find>
+      <find>observable</find>
+      <find>pristine</find>
+      <find>reset</find>
+      <find>initialize</find>
+      <find>split</find>
+      <find>shouldDisableSaving</find>
+      <find>dateisystemController</find>
+      <find>load</find>
+      <find>addWein</find>
+      <find>YES</find>
+      <find>löschen</find>
+      <find>existingDocumentsDataFolder</find>
+      <find>loadLast</find>
+      <find>decodeFromCSV</find>
+      <find>öffnen</find>
+      <find>setStage</find>
+      <find>use</find>
+      <find>confirmUseDamaged</find>
+      <find>new DecodingError</find>
+      <find>bestell</find>
+      <find>flaschen</find>
+      <find>flaschengröße</find>
+      <find>a,ter</find>
+      <find>failedOne</find>
+      <find>confirm</find>
+      <find>chooseLoadFile</find>
+      <find>WrongFileExtension</find>
+      <find>ChoosingFileFailed</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/preisumrechner/PreisumrechnerDokument.fxml" />
+        <option value="$PROJECT_DIR$/src/mci/wein/WeinGüte.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/WeinAufnehmenPresenter.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/preisumrechner/PreisumrechnerPresenter.java" />
+        <option value="$PROJECT_DIR$/src/mci/wein/Weinflaschengröße.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/ValidationError.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/InvalidInputError.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/MissingInputError.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/RegexHelper.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/InternalError.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/InternalControllerError.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/trinkreife/WeinAlterMitJahr.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/trinkreife/TrinkreifeController.java" />
+        <option value="$PROJECT_DIR$/src/mci/wein/WeinController.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/WeinAufnehmen.fxml" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/AlertHelper.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/StyleHelper.java" />
+        <option value="$PROJECT_DIR$/src/mci/wein/Wein.fxml" />
+        <option value="$PROJECT_DIR$/src/mci/controller/Main.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/Main.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/MainHelper.java" />
+        <option value="$PROJECT_DIR$/src/mci/wein/InvalidFormatException.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/InvalidFormatException.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/ChoosingFileFailed.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/ExceptionHelper.java" />
+        <option value="$PROJECT_DIR$/src/mci/liste/WeinListe.fxml" />
+        <option value="$PROJECT_DIR$/src/mci/controller/Unterfenster.java" />
+        <option value="$PROJECT_DIR$/src/mci/liste/WeinModel.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/WeinAufnehmenDelegate.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/UnterfensterDelegate.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/preisumrechner/Preisumrechner.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/preisumrechner/PreisumrechnerController.java" />
+        <option value="$PROJECT_DIR$/src/mci/liste/WeinListeSelected.java" />
+        <option value="$PROJECT_DIR$/src/mci/liste/WeinListeDelegate.java" />
+        <option value="$PROJECT_DIR$/src/mci/liste/WeinListeController.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/UnterfensterController.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/FileDoesNotExistError.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/KeineWeindateiError.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/AlertHelper.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/kb2.csv" />
+        <option value="$PROJECT_DIR$/src/mci/controller/DecodingError.java" />
+        <option value="$PROJECT_DIR$/src/mci/aufnehmen/WeinAufnehmenController.java" />
+        <option value="$PROJECT_DIR$/src/mci/wein/WeinFarbe.java" />
+        <option value="$PROJECT_DIR$/src/mci/wein/WeinPreis.java" />
+        <option value="$PROJECT_DIR$/src/mci/wein/WeinAlter.java" />
+        <option value="$PROJECT_DIR$/src/mci/wein/Anbaugebiet.java" />
+        <option value="$PROJECT_DIR$/src/mci/wein/Alkoholgehalt.java" />
+        <option value="$PROJECT_DIR$/src/mci/wein/Wein.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/DateisystemController.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/WrongFileExtension.java" />
+        <option value="$PROJECT_DIR$/src/mci/controller/WeinController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Prakt3-Intellij3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prakt3-Intellij3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prakt3-Intellij3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prakt3-Intellij3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prakt3-Intellij3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prakt3-Intellij3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prakt3-Intellij3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prakt3-Intellij3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mci" type="462c0819:PsiDirectoryNode" />
+              <item name="aufnehmen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prakt3-Intellij3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prakt3-Intellij3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mci" type="462c0819:PsiDirectoryNode" />
+              <item name="aufnehmen" type="462c0819:PsiDirectoryNode" />
+              <item name="preisumrechner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prakt3-Intellij3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prakt3-Intellij3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mci" type="462c0819:PsiDirectoryNode" />
+              <item name="aufnehmen" type="462c0819:PsiDirectoryNode" />
+              <item name="trinkreife" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prakt3-Intellij3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prakt3-Intellij3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mci" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prakt3-Intellij3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prakt3-Intellij3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mci" type="462c0819:PsiDirectoryNode" />
+              <item name="liste" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prakt3-Intellij3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prakt3-Intellij3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mci" type="462c0819:PsiDirectoryNode" />
+              <item name="wein" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547639295673" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="mci.wein.Wein" />
+      <recent name="mci.aufnehmen.StyleHelper" />
+      <recent name="mci.aufnehmen.RegexHelper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../.." />
+      <recent name="$PROJECT_DIR$/src/mci/controller" />
+      <recent name="$PROJECT_DIR$/src/mci/aufnehmen" />
+      <recent name="$PROJECT_DIR$/src/mci/preisumrechner" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="mci.controller" />
+      <recent name="mci.wein" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="mci.controller.Main" />
+      <module name="Prakt3-Intellij3" />
+      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../../javafx-sdk-11.0-2.1/lib --add-modules=javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Preisumrechner" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="mci.aufnehmen.preisumrechner.Main" />
+      <module name="Prakt3-Intellij3" />
+      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../../javafx-sdk-11.0-2.1/lib --add-modules=javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trinkreife" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="mci.aufnehmen.trinkreife.Main" />
+      <module name="Prakt3-Intellij3" />
+      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../../javafx-sdk-11.0-2.1/lib --add-modules=javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeinAufnehmen" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="mci.aufnehmen.Main" />
+      <module name="Prakt3-Intellij3" />
+      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../../javafx-sdk-11.0-2.1/lib --add-modules=javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mci.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WeinAufnehmen" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Preisumrechner" />
+      <item itemvalue="Application.Trinkreife" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1546610556036" duration="5352000" />
+      <workItem from="1546966748309" duration="26379000" />
+      <workItem from="1547054913194" duration="18079000" />
+      <workItem from="1547076294254" duration="112000" />
+      <workItem from="1547110385214" duration="5223000" />
+      <workItem from="1547115727650" duration="1011000" />
+      <workItem from="1547132486570" duration="29767000" />
+      <workItem from="1547597351283" duration="1158000" />
+      <workItem from="1547631864301" duration="7254000" />
+    </task>
+    <task id="LOCAL-00001" summary="abc">
+      <created>1546653276607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546653276607</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Moved presenter into his own class &amp; file.">
+      <created>1546653756946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546653756946</updated>
+    </task>
+    <task id="LOCAL-00003" summary="abc">
+      <created>1546702075860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546702075860</updated>
+    </task>
+    <task id="LOCAL-00004" summary="abc">
+      <created>1546702318004</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546702318004</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="95637000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="23" width="1280" height="732" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20193861" />
+      <window_info id="Structure" order="1" weight="0.24980143" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32445142" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3734375" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984375" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.321875" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Terminal" order="17" weight="0.3291536" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="FMU Inspector" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="Moved presenter into his own class &amp; file." />
+    <MESSAGE value="abc" />
+    <option name="LAST_COMMIT_MESSAGE" value="abc" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/mci/aufnehmen/trinkreife/TrinkreifeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/aufnehmen/preisumrechner/PreisumrechnerDokument.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/aufnehmen/WeinAufnehmen.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="86" column="25" lean-forward="true" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../javafx-sdk-11.0-2.1/lib/javafx.controls.jar!/javafx/scene/control/SpinnerValueFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="390" column="53" selection-start-line="390" selection-start-column="53" selection-end-line="390" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../javafx-sdk-11.0-2.1/lib/javafx.controls.jar!/javafx/scene/control/Alert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/aufnehmen/MissingInputError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/wein/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/Wein.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/aufnehmen/StyleHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="989" column="25" selection-start-line="989" selection-start-column="25" selection-end-line="989" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="2363" column="31" lean-forward="true" selection-start-line="2363" selection-start-column="31" selection-end-line="2363" selection-end-column="31" />
+          <folding>
+            <element signature="e#95322#95323#0" expanded="true" />
+            <element signature="e#95360#95361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../javafx-sdk-11.0-2.1/lib/javafx.graphics.jar!/javafx/stage/FileChooser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="152" column="36" lean-forward="true" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/nio/file/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="434" column="43" lean-forward="true" selection-start-line="434" selection-start-column="43" selection-end-line="434" selection-end-column="43" />
+          <folding>
+            <element signature="e#19272#19273#0" expanded="true" />
+            <element signature="e#19335#19336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/liste/WeinListeController.kt" />
+    <entry file="file://$PROJECT_DIR$/src/mci/liste/WeinListe.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/liste/WeinModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/UnterfensterDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/aufnehmen/preisumrechner/Preisumrechner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../javafx-sdk-11.0-2.1/lib/javafx.controls.jar!/javafx/scene/control/SelectionModel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/Unterfenster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/liste/WeinListeSelected.java" />
+    <entry file="file://$PROJECT_DIR$/src/mci/aufnehmen/WeinAufnehmenDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/liste/WeinListeDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/aufnehmen/preisumrechner/PreisumrechnerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="251" column="5" lean-forward="true" selection-start-line="251" selection-start-column="5" selection-end-line="251" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../javafx-sdk-11.0-2.1/lib/javafx.controls.jar!/javafx/scene/control/Cell.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+          <folding>
+            <element signature="e#5822#5823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../javafx-sdk-11.0-2.1/lib/javafx.controls.jar!/javafx/scene/control/TableRow.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="138" column="52" lean-forward="true" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="553" column="44" selection-start-line="553" selection-start-column="20" selection-end-line="553" selection-end-column="44" />
+          <folding>
+            <element signature="e#22124#22125#0" expanded="true" />
+            <element signature="e#22204#22205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/ExceptionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/ChoosingFileFailed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../javafx-sdk-11.0-2.1/lib/javafx.controls.jar!/javafx/scene/control/ButtonType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/aufnehmen/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/UnterfensterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="115" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../kb2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/liste/WeinListeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2449#2450#0" expanded="true" />
+            <element signature="e#2489#2490#0" expanded="true" />
+            <element signature="e#2820#2821#0" expanded="true" />
+            <element signature="e#2891#2892#0" expanded="true" />
+            <element signature="e#2925#2926#0" expanded="true" />
+            <element signature="e#2961#2962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/wein/WeinFarbe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/wein/Weinflasche.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/wein/WeinPreis.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/wein/WeinAlter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding>
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/wein/Anbaugebiet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="92" column="55" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
+          <folding>
+            <element signature="e#2397#2398#0" expanded="true" />
+            <element signature="e#2454#2455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/wein/Alkoholgehalt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/InvalidFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/FileDoesNotExistError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/KeineWeindateiError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/aufnehmen/WeinAufnehmenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5303">
+          <caret line="518" column="17" selection-start-line="518" selection-start-column="16" selection-end-line="518" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/AlertHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/WrongFileExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="58" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/DateisystemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/DecodingError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/wein/Wein.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mci/controller/WeinController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="151" column="48" lean-forward="true" selection-start-line="151" selection-start-column="48" selection-end-line="151" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaFXApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Prakt3-Intellij3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>JavaFX</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

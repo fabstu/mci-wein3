@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+
+<StackPane fx:id="stackPane" alignment="BOTTOM_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="200.0" minWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mci.aufnehmen.trinkreife.TrinkreifeController">
+    <children>
+        <HBox fx:id="hboxForeground" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" StackPane.alignment="CENTER_LEFT">
+            <children>
+                <Rectangle fx:id="untrinkbar" arcWidth="5.0" fill="LIGHTGRAY" height="200.0" stroke="LIGHTGRAY" strokeType="INSIDE" strokeWidth="100.0" width="200.0">
+                    <HBox.margin>
+                        <Insets right="-1.0" />
+                    </HBox.margin>
+                </Rectangle>
+                <Rectangle fx:id="übergang" arcWidth="5.0" height="200.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="200.0">
+                    <fill>
+                        <LinearGradient endX="1.0" endY="0.37142857142857144" startY="0.3952380952380953">
+                            <stops>
+                                <Stop color="LIGHTGRAY" />
+                                <Stop color="LIGHTGRAY" offset="0.007662835249042145" />
+                                <Stop color="LIME" offset="1.0" />
+                            </stops>
+                        </LinearGradient>
+                    </fill>
+                    <HBox.margin>
+                        <Insets right="-1.0" />
+                    </HBox.margin>
+                </Rectangle>
+                <Rectangle fx:id="best" arcHeight="5.0" arcWidth="5.0" fill="LIME" height="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0">
+                    <HBox.margin>
+                        <Insets right="-1.0" />
+                    </HBox.margin></Rectangle>
+                <Rectangle fx:id="ablaufJahr" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+            </children>
+            <StackPane.margin>
+                <Insets />
+            </StackPane.margin>
+        </HBox>
+        <HBox fx:id="hboxBackground" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" StackPane.alignment="CENTER_LEFT">
+            <children>
+                <Rectangle fx:id="backgroundRect1" arcHeight="5.0" arcWidth="5.0" fill="#b5353500" height="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="200.0">
+                    <HBox.margin>
+                        <Insets />
+                    </HBox.margin></Rectangle>
+                <Rectangle fx:id="backgroundRect2" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="200.0" stroke="RED" strokeType="INSIDE" strokeWidth="2.0" width="200.0" />
+                <Rectangle fx:id="backgroundRect3" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="200.0" />
+            </children>
+        </HBox>
+        <StackPane fx:id="labelsStackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" StackPane.alignment="TOP_LEFT">
+            <children>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" StackPane.alignment="TOP_LEFT">
+                    <children>
+                        <Rectangle fx:id="offsetX1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="200.0" />
+                        <VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" HBox.hgrow="ALWAYS">
+                            <children>
+                                <Rectangle fx:id="offsetY1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="200.0" />
+                                <Label fx:id="untrinkbarLabel" text="Label" />
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" StackPane.alignment="TOP_LEFT">
+                    <children>
+                        <Rectangle fx:id="offsetX2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="200.0" />
+                        <VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" HBox.hgrow="ALWAYS">
+                            <children>
+                                <Rectangle fx:id="offsetY2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="200.0" />
+                                <Label fx:id="currentYearLabel" text="Label" textFill="RED" />
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" StackPane.alignment="TOP_LEFT">
+                    <children>
+                        <Rectangle fx:id="offsetX3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="200.0" />
+                        <VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" HBox.hgrow="ALWAYS">
+                            <children>
+                                <Rectangle fx:id="offsetY3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="200.0" />
+                                <Label fx:id="ablaufJahrLabel" text="Label" />
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+            </children>
+        </StackPane>
+    </children>
+    <opaqueInsets>
+        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+    </opaqueInsets>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</StackPane>
