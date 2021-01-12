@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Prakt3-Intellij3" target="7" />
+      <module name="Prakt3-Intellij3" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
